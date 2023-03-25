@@ -1,4 +1,5 @@
-#include "ArrayStack.h"
+#include <ArrayStack/ArrayStack.h>
+
 #include <iostream>
 
 ArrayStack::ArrayStack()

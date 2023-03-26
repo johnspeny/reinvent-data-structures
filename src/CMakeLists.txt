@@ -2,12 +2,8 @@
 # already in a project!
 # set(project_name app)
 
-# project(${project_name})
-# set(target_name ${project_name})
+set(target_name ReinventDataStructures)
 
+add_executable(${target_name} main.cpp)
 
-add_executable(ReinventDataStructures main.cpp)
-
-target_link_libraries(ReinventDataStructures
- PRIVATE
-  ArrayStack)
+target_link_libraries(${target_name} PRIVATE rds_libs)

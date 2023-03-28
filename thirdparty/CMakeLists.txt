@@ -25,7 +25,6 @@ add_subdirectory(logger)
 target_link_libraries(thirdparty logger)
 configure_target_outdir(logger)
 
-
 # nanobench
 add_subdirectory(nanobench)
 target_link_libraries(thirdparty nanobench)

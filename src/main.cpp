@@ -7,5 +7,6 @@ int main()
 	ArrayStack obj;
 
 	std::cout << "Welcome" << "\n";
+
 	return 0;
 }

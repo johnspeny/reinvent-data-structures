@@ -17,6 +17,7 @@ add_library(${lib_name} ${RDS_SRC})
 # use thirdparty libs
 add_subdirectory(${RDS_ROOT_PATH}/thirdparty ${RDS_BINARY_PATH}/thirdparty)
 
+
 target_include_directories(${lib_name}
 	PUBLIC ${CMAKE_SOURCE_DIR}/data-structures
 	PUBLIC ${CMAKE_SOURCE_DIR}/thirdparty

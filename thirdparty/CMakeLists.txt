@@ -9,6 +9,12 @@ function(configure_target_outdir target)
     )
 endfunction()
 
+# header only library to use
+# fmt and exclude from build
+# add_subdirectory(fmt EXCLUDE_FROM_ALL)
+
+
+
 # Add all 3rd party here
 # logger
 add_subdirectory(logger)

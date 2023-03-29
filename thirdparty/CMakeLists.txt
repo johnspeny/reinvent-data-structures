@@ -29,3 +29,9 @@ configure_target_outdir(logger)
 add_subdirectory(nanobench)
 target_link_libraries(thirdparty nanobench)
 configure_target_outdir(nanobench)
+
+
+# spdlog
+add_subdirectory(spdlog)
+target_link_libraries(thirdparty spdlog_header_only)
+configure_target_outdir(spdlog)

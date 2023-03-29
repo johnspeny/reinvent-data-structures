@@ -19,12 +19,6 @@ add_library(thirdparty STATIC empty.cpp)
 add_subdirectory(fmt EXCLUDE_FROM_ALL)
 target_link_libraries(thirdparty fmt-header-only)
 
-# none header only below
-# logger
-add_subdirectory(logger)
-target_link_libraries(thirdparty logger)
-configure_target_outdir(logger)
-
 # nanobench
 add_subdirectory(nanobench)
 target_link_libraries(thirdparty nanobench)

@@ -1,0 +1,3 @@
+add_library(circular_buffer circular_buffer.cpp)
+
+target_include_directories(circular_buffer PUBLIC include)
